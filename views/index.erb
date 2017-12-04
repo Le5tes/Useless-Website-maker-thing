@@ -1,1 +1,10 @@
-'<img style="border: red 6px dashed;" src="http://bit.ly/1eze8aE">'
+<% if @name %>
+<h1> My Name is  <%= @name %> </h1>
+<% end %>
+<img style="border: red 6px dashed;" src="http://bit.ly/1eze8aE">
+<% if @name == nil %>
+<form> 
+	<p> Enter Name </p>
+	<input type= "text" name = "name">
+</form>
+<% end %>
