@@ -9,3 +9,6 @@ end
 get '/nice' do
 	"you aren't a moron"
 end
+get '/cat' do
+	'<img style="border: red 6px dashed;" src="http://bit.ly/1eze8aE">'
+end
